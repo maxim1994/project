@@ -56,9 +56,9 @@ header, nav, section, article, aside, footer { display:block;}
 }
 	
 #wrapper {
-	width:991px;
+	width:920px;
 	margin:0 auto;
-    outline: 1px solid #000;
+    outline: 3px solid #000;
     position: relative;
 }
 
@@ -116,8 +116,9 @@ header, nav, section, article, aside, footer { display:block;}
 -----------------------------------------------------------------------------*/
 
 #header{
-    outline: 1px solid #fff;
+    margin-bottom: 23px;
 }
+
 .logout{
     height: 27px; width: 100%;
     background: #141414;
@@ -171,7 +172,6 @@ header, nav, section, article, aside, footer { display:block;}
 
 .b1{
     width: 100%; height: 114px;
-    outline: 1px solid #ccc;
 }
 
 .nt1{
@@ -180,13 +180,13 @@ header, nav, section, article, aside, footer { display:block;}
 }
 
 .nb1{
-    padding: 40px 157px 0px 81px;
+    padding: 40px 177px 0px 81px;
     float: left;
 }
 
 .serch{
     background: #fff url(../img/searchBg.png) no-repeat right;
-    width: 300px; height: 22px;
+    width: 210px; height: 22px;
     border: none;
     border-top: 1px solid #ccc;
     margin-top: 40px;
@@ -195,9 +195,9 @@ header, nav, section, article, aside, footer { display:block;}
 .l1 li{
     width: 72px; height: 22px;
     display: inline-block;
-    padding: 3px 0px 0px 17px;
+    padding: 3px 0px 0px 15px;
     margin: 0px;
-    margin-right: 7px;
+    margin-right: 1px;
 }
 
 .l1 li:hover{
@@ -235,13 +235,25 @@ header, nav, section, article, aside, footer { display:block;}
     color: #fff;
 }
 
-
-
 /*----------end-----------------*/
+/*----------content-------------*/
+.content{
+    float: left;
+    width: 480px; height: auto;
+    outline: 1px solid red;
+}
+/*----------end content---------*/
+/*----------slide right---------*/
+.slide{
+    width: 440px; height: auto;
+    outline: 1px solid blue;
+    margin-left: 480px;
+}
+/*----------end slide right-----*/
 /* Footer
 -----------------------------------------------------------------------------*/
 #footer {
-	width:991px;
+	width:920px;
 	margin:0 auto;
 	height:100px;
 	position:relative;
