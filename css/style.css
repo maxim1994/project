@@ -1,0 +1,120 @@
+@charset "utf-8";
+@import url(reset.css);
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:100%;
+    background: #ccc url(../img/bodyBg.jpg);
+}
+
+html {
+	height:100%;
+}
+
+/* TYPOGRAPHY */
+a{}
+body a:hover{ 
+    text-decoration:none; 
+    color:#ff6000;
+}
+
+li{
+    list-style: none;
+}
+/* END TYPOGRAPHY */
+	
+header, nav, section, article, aside, footer { display:block;}
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+.clear {
+  clear:both;
+  display:block;
+  overflow:hidden;
+  visibility:hidden;
+  width:0;
+  height:0;
+}
+.clearfix:before,
+.clearfix:after {
+  content:'\0020';
+  display:block;
+  overflow:hidden;
+  visibility:hidden;
+  width:0;
+  height:0;
+}
+.clearfix:after {
+  clear:both;
+}
+	
+#wrapper {
+	width:940px;
+	margin:0 auto;
+    outline: 1px solid #000;
+
+}
+
+/* Buttons
+-----------------------------------------------------------------------------*/
+.btn{
+	display:inline-block;
+	position:relative;
+	overflow:visible;
+	vertical-align:middle;
+	outline:none;
+	border:none;
+	cursor:pointer;
+	-webkit-appearance:none;
+	text-decoration:none;
+}
+/* Icons
+-----------------------------------------------------------------------------*/
+.ico{
+	display:inline-block;
+	vertical-align:middle;
+	background:url('../img/icons.png') no-repeat;
+	overflow:hidden;
+	margin-right:5px;
+}
+/* Forms
+-----------------------------------------------------------------------------*/
+
+::-webkit-input-placeholder {
+	color:#84817e;
+}
+:-moz-placeholder {
+	color:#84817e;
+}
+.placeholder {
+	color:#84817e;
+}
+
+/* Structures
+-----------------------------------------------------------------------------*/
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+   
+}
+
+
+
+/*----------end-----------------*/
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+	width:940px;
+	margin:0 auto;
+	height:100px;
+	position:relative;
+    outline: 1px solid #000;
+}
