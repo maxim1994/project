@@ -22,6 +22,7 @@ html {
 a{}
 body a:hover{ 
     text-decoration:none; 
+    color: #33ccff;
 }
 
 li{
@@ -58,7 +59,7 @@ header, nav, section, article, aside, footer { display:block;}
 	width:991px;
 	margin:0 auto;
     outline: 1px solid #000;
-
+    position: relative;
 }
 
 /* Buttons
@@ -98,18 +99,98 @@ header, nav, section, article, aside, footer { display:block;}
 
 /* Structures
 -----------------------------------------------------------------------------*/
+.black{
+    width: 100%; height: 42px;
+    background-color: #141414;
+    position: absolute;
+}
+
+.black2{
+    width: 100%; height: 557px;
+    position: absolute;
+    background: url(../img/black2.jpg);
+    top:42px;
+}
 
 /* Header
 -----------------------------------------------------------------------------*/
+
+#header{
+    outline: 1px solid #fff;
+}
 .logout{
-    width: 100%; height: 42px;
-    background-color: #141414;
+    height: 27px; width: 100%;
+    background: #141414;
+    padding-top: 15px;
 }
 
-#header {
-   
+.sing{
+    font: 11px Arial, sans-serif;
+    color: #fff;
+    float: left;
 }
 
+.s1{
+    font: 11px Arial, sans-serif;
+    color: #cccccc;
+    float: left;
+    padding-left: 35px;
+}
+
+.faceIco{
+    display: block;
+    float: left;
+    width: 16px; height: 16px;
+    background: url(../img/icoF.png) left;
+    margin-left: 19px;
+}
+
+.vkIco{
+    background: url(../img/icoF.png) -18px;
+    margin:0px 182px 0px 17px;
+}
+
+.help{
+    font: 11px Arial, sans-serif;
+    color: #cccccc;
+    float: right;
+}
+
+.logo{
+    width: 169px; height: 65px;
+    display: block;
+    float: left;
+    background: url(../img/logo.png);
+    margin-top: 14px;
+}
+
+.bg{
+    background: url(../img/black2.jpg);
+    width: 100%; height: 134px;
+}
+
+.b1{
+    width: 100%; height: 114px;
+    outline: 1px solid #ccc;
+}
+
+.nt1{
+    font: 11px Arial, sans-serif;
+    color: #ccc;
+}
+
+.nb1{
+    padding: 40px 157px 0px 81px;
+    float: left;
+}
+
+.serch{
+    background: #fff url(../img/searchBg.png) no-repeat right;
+    width: 300px; height: 22px;
+    border: none;
+    border-top: 1px solid #ccc;
+    margin-top: 40px;
+}
 
 
 /*----------end-----------------*/
