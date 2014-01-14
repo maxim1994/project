@@ -193,11 +193,11 @@ header, nav, section, article, aside, footer { display:block;}
 }
 
 .l1 li{
-    width: 65px; height: 22px;
+    width: 72px; height: 22px;
     display: inline-block;
-    padding: 3px 0px 0px 20px;
+    padding: 3px 0px 0px 17px;
     margin: 0px;
-    margin-right: 6px;
+    margin-right: 7px;
 }
 
 .l1 li:hover{
@@ -205,15 +205,33 @@ header, nav, section, article, aside, footer { display:block;}
 }
 
 .l1 .os{
-    width: 73px;
+    width: 83px;
 }
 
 .l1 .os2{
-    width: 82px;
+    width: 95px;
+}
+
+.l1 .os3{
+    width: 45px;
+}
+
+.l1 .os4{
+    margin: 0px;
+    width: 65px;
 }
 
 .a-lis{
     font:16px 'pf_dindisplay_probold';
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.bg-color{
+    background-color: #009fe3;
+}
+
+.bg-color a:hover{
     color: #fff;
 }
 
