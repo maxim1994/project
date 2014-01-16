@@ -534,7 +534,7 @@ a.s-a:hover{
 }
 
 .fot-1{
-    width: 100%; height: 235px;
+    width: 100%; height: 222px;
     border-bottom: 1px solid #333333;
 }
 
@@ -562,7 +562,7 @@ a.s-a:hover{
 }
 
 .wbg{
-    margin-bottom: 16px;
+    margin-bottom: 11px;
 }
 
 .w-t{
@@ -583,9 +583,75 @@ a.s-a:hover{
 .w-num{
     font: 11px Arial, sans-serif;
     color: #cccccc;
- 
 }
 
 .sb-w{
     margin-top: 12px;
+}
+
+.fot-2{
+    width: 100%;
+    margin-top: 27px;
+}
+
+.fot-h4{
+     font:14px 'pf_dindisplay_probold';
+     color: #fff;
+     padding-bottom: 9px;
+}
+
+.w-3{
+    float: left;
+    margin-right: 40px;
+}
+
+.fotIco{
+    width:16px; height: 16px;
+    background: url(../img/icoFoot.png);
+    display: block;
+    float: left;
+    margin: 5px 10px 0px 0px;
+}
+
+.fotIco:hover{
+    background: url(../img/icoFoot.png) right top;
+}
+
+.fotIco2{
+    width: 16px; height: 16px;
+    background: url(../img/icoFoot3.png);
+    display: block;
+    float: left;
+    margin: 5px 10px 0px 0px;
+}
+
+.fotIco2:hover{
+    background: url(../img/icoFoot3.png) right top;
+}
+
+.fotIco3{
+    width: 16px; height: 16px;
+    background: url(../img/icoFoot2.png);
+    display: block;
+    float: left;
+    margin: 5px 16px 0px 0px;
+}
+
+.fotIco3:hover{
+    background: url(../img/icoFoot2.png) right top;
+}
+
+.sotsite{
+    margin-top: 25px;
+    width: auto;
+    float: left;
+}
+
+.atention{
+    margin: 25px 97px 0px 60px;
+    float: left;
+}
+
+.copy{
+    margin-top: 25px;
 }
