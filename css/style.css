@@ -655,3 +655,8 @@ a.s-a:hover{
 .copy{
     margin-top: 25px;
 }
+
+.bg-black{
+    width: 100%; height: auto;
+    background: url(../img/black2.jpg);
+}
