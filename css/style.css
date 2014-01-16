@@ -58,7 +58,6 @@ header, nav, section, article, aside, footer { display:block;}
 #wrapper {
 	width:920px;
 	margin:0 auto;
-    outline: 3px solid #000;
     position: relative;
 }
 
@@ -110,6 +109,13 @@ header, nav, section, article, aside, footer { display:block;}
     position: absolute;
     background: url(../img/black2.jpg);
     top:42px;
+}
+
+.black3{
+    width: 100%; height: 430px;
+    position: absolute;
+    background: url(../img/black3.jpg);
+    top: 599px;
 }
 
 /* Header
@@ -245,7 +251,8 @@ header, nav, section, article, aside, footer { display:block;}
 .content{
     float: left;
     width: 480px; height: auto;
-    outline: 1px solid red;
+    background-color: #fff;
+    overflow: visible;
 }
 
 .blok1{
@@ -303,7 +310,6 @@ header, nav, section, article, aside, footer { display:block;}
     width: 210px; height: 375px;
     float: left;
     margin:0px 0px 0px 20px;
-    outline: 1px solid #000;
     padding-top: 24px;
 }
 
@@ -373,15 +379,14 @@ header, nav, section, article, aside, footer { display:block;}
 /*----------slide right---------*/
 .slide{
     width: 440px; height: auto;
-    outline: 1px solid blue;
     margin-left: 480px;
 }
 
 .sb1{
     width: 210px; height: 800px;
     float: left;
-    outline: 1px solid blue;
     margin-right: 20px;
+    background-color: #fff;
 }
 
 .sb2{
@@ -458,7 +463,7 @@ a.s-a:hover{
 }
 
 .wv{
-    width: 200px; height: 300px;
+    width: 200px; height: 301px;
     position: relative;
     left: -10px;
     margin-bottom: 20px;
@@ -469,25 +474,118 @@ a.s-a:hover{
     background-color: #fff;
     position: relative;
     left: -20px;
-    padding-top: 22px;
+    padding-top: 21px;
 }
 
 .in{
-    width: 100%; height: 60px;
+    width: 91%; height: 60px;
     border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    margin-left: 20px;
 }
 
 .inno{
     float: left;
     margin-right: 12px;
 }
+
+.inno-h{
+    font:12px 'pf_dindisplay_probold';
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.inno-h:hover{
+    color: #0099cc;
+    cursor: pointer;
+}
+
+.inno-t{
+    font: 11px Arial, sans-serif; 
+    color: #333333;
+    padding-left: 33px;
+}
 /*----------end slide right-----*/
+/*----------full-comnets--------*/
+.ful-comt{
+    width: 690px; height: 30px;
+}
+
+.more{
+    width: 100%; height: 100%;
+    background-color: #009fe3;
+    border: none;
+    font:16px 'pf_dindisplay_probold';
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+/*----------end ful-coment------*/
 /* Footer
 -----------------------------------------------------------------------------*/
 #footer {
-	width:920px;
+	width:880px;
 	margin:0 auto;
-	height:100px;
+	height:432px;
 	position:relative;
     outline: 1px solid #000;
+    background-color: #1d1d1d;
+    padding: 20px 20px 0px 20px;
+}
+
+.fot-1{
+    width: 100%; height: 235px;
+    border-bottom: 1px solid #333333;
+}
+
+.h3-fot{
+    font:16px 'pf_dindisplay_probold';
+    text-transform: uppercase;
+    color: #fff;
+    float: left;
+    margin-right: 15px;
+}
+
+.a-fot{
+    font: 11px Arial, sans-serif;
+    color: #cccccc;
+}
+
+.b1-fot{
+    margin-bottom: 20px;
+}
+
+.w-1{
+    width: 80px; height: auto;
+    float: left;
+    margin-right: 20px;
+}
+
+.wbg{
+    margin-bottom: 16px;
+}
+
+.w-t{
+    font:12px 'pf_dindisplay_probold';
+    text-transform: uppercase;
+    color: #cccccc;
+}
+
+.ico-w{
+    width: 13px; height: 12px;
+    display: block;
+    background: url(../img/icoW.png);
+    float: left;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+
+.w-num{
+    font: 11px Arial, sans-serif;
+    color: #cccccc;
+ 
+}
+
+.sb-w{
+    margin-top: 12px;
 }
