@@ -31,7 +31,6 @@ li{
 /* END TYPOGRAPHY */
 	
 header, nav, section, article, aside, footer { display:block;
-outline: 3px solid red;
 }
 
 /* `Clear Floated Elements
@@ -126,6 +125,14 @@ outline: 3px solid red;
     top: 599px;
 }
 
+.black-main{
+    width: 100%; height: 910px;
+    position: absolute;
+    background: url(../img/black3.jpg);
+    top: 599px;
+    
+}
+
 /* Header
 -----------------------------------------------------------------------------*/
 
@@ -199,6 +206,13 @@ outline: 3px solid red;
     float: left;
 }
 
+/*--------main pag----------*/
+.nb2-main{
+    padding: 40px 157px 0px 81px;
+    float: left;
+}
+/*--------end main pag------*/
+
 .serch{
     background: #fff url(../img/searchBg.png) no-repeat right;
     width: 210px; height: 22px;
@@ -253,6 +267,37 @@ outline: 3px solid red;
 .bg-color a:hover{
     color: #fff;
 }
+
+.search-main{
+    width: 300px;
+}
+
+/*----------nav for main --------*/
+.l1-main li{
+    width: 77px; height: 22px;
+    display: inline-block;
+    padding: 3px 0px 0px 15px;
+    margin: 0px;
+    margin-right: 4px;
+}
+
+.l1-main .os{
+    width: 87px;
+}
+
+.l1-main .os2{
+    width: 110px;
+}
+
+.l1-main .os4{
+    margin: 0px;
+    width: 62px;
+}
+
+.serch-main{
+
+}
+/*----------end nav for main-----*/
 
 /*----------end-----------------*/
 /*----------content-------------*/
@@ -422,6 +467,34 @@ outline: 3px solid red;
     background-color: #fff;
 }
 
+.forum-main{
+    width: 262px; height: 392px;
+    padding:28px 20px 0px 20px;
+    background:  url(../img/mainBg.jpg);
+}
+
+.h-blue{
+    font:16px 'pf_dindisplay_probold';
+    text-transform: uppercase;
+    color: #0099cc;
+    padding-bottom:20px;
+}
+
+.b-l-main{
+    width: 210px; height: 856px;
+    float: left;
+    margin:0px 0px 0px 20px;
+    padding: 24px 0px 0px 0px ;
+}
+
+.main-ratio{
+    margin-top: -5px;
+}
+
+.ratio{
+    font: 11px Arial, sans-serif;
+    color: #999999;
+}
 /*--------end---------------------------*/
 
 .s-b1{
@@ -497,6 +570,31 @@ a.s-a:hover{
     margin-bottom: 20px;
 }
 
+.fr-1{
+    font:14px 'pf_dindisplay_probold';
+    color: #333;
+    padding-bottom: 5px;
+}
+
+.fr-2{
+    font: 11px Arial, sans-serif;
+    color: #333;
+    padding-bottom: 11px;
+}
+
+.icoMain{
+    width: 12px; height: 8px;
+    background: url(../img/icoMain.png) no-repeat;
+    display: block;
+    float: left;
+    margin: 3px 7px 0px 0px;
+}
+
+.fr-3{
+    font: 11px Arial, sans-serif;
+    color: #666666;
+}
+
 /*-----baner pag 2---------*/
 .wv-2{
     width: 200px; height: 301px;
@@ -510,9 +608,16 @@ a.s-a:hover{
     left: -20px;
     padding-top: 21px;
 }
+
+.forum1{
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 16px;
+}
 /*--------------pag 2 banner main------------------*/
 .vw-t2{
-    width: 107%; height: auto;
+    width: 300px; height: auto;
     background-color: #fff;
     position: relative;
     left: -20px;
@@ -587,7 +692,7 @@ a.s-a:hover{
     padding-left: 33px;
 }
 /*----------end slide right-----*/
-/*----------full-comnets--------*/
+/*----------full-comnets button--------*/
 .ful-comt{
     width: 690px; height: 30px;
 }
@@ -602,6 +707,11 @@ a.s-a:hover{
     
 }
 /*----------end ful-coment------*/
+/*----------button main---------*/
+.ful-comt-main{
+    width: 100%; height: 30px;
+}
+/*-------------end--------------*/
 /* Footer
 -----------------------------------------------------------------------------*/
 #footer {
@@ -749,3 +859,8 @@ a.s-a:hover{
     width: 100%; height: auto;
     background: url(../img/black2.jpg);
 }
+/*-----------pag2 main -------------*/
+.main-fot-a{
+    padding-left: 13px;
+}
+/*-----------end main pag2----------*/
