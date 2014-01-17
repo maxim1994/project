@@ -30,7 +30,9 @@ li{
 }
 /* END TYPOGRAPHY */
 	
-header, nav, section, article, aside, footer { display:block;}
+header, nav, section, article, aside, footer { display:block;
+outline: 3px solid red;
+}
 
 /* `Clear Floated Elements
 ----------------------------------------------------------------------------------------------------*/
@@ -58,6 +60,12 @@ header, nav, section, article, aside, footer { display:block;}
 #wrapper {
 	width:920px;
 	margin:0 auto;
+    position: relative;
+}
+
+#wrapper-main{
+    width: 990px;
+    margin: 0 auto;
     position: relative;
 }
 
@@ -378,23 +386,43 @@ header, nav, section, article, aside, footer { display:block;}
 /*----------end content---------*/
 /*----------slide right---------*/
 .slide{
-    width: 440px; height: auto;
+    width: 510px; height: auto;
     margin-left: 480px;
+    outline: 0px solid blue;
 }
 
 .sb1{
-    width: 210px; height: 800px;
+    width: 210px; height: auto;
     float: left;
     margin-right: 20px;
     background-color: #fff;
 }
 
 .sb2{
-    width: 210px; height: 640px;
+    width: 210px; height: auto;
+    margin-left: 210px;
+    background: url(../img/black2.jpg);
+    padding-left: 20px;
+   
+}
+
+/*--------pag2 main baner---------------*/
+
+.sb2-1{
+    width: 280px; height: 640px;
     margin-left: 210px;
     background: url(../img/black2.jpg);
     padding-left: 20px;
 }
+
+.sb1-main{
+    width: 210px; height: 800px;
+    float: left;
+    margin-right: 20px;
+    background-color: #fff;
+}
+
+/*--------end---------------------------*/
 
 .s-b1{
     width: 100%; height: 160px;
@@ -469,6 +497,12 @@ a.s-a:hover{
     margin-bottom: 20px;
 }
 
+/*-----baner pag 2---------*/
+.wv-2{
+    width: 200px; height: 301px;
+    margin-bottom: 20px;
+}
+
 .vw-t{
     width: 110%; height: 298px;
     background-color: #fff;
@@ -476,7 +510,54 @@ a.s-a:hover{
     left: -20px;
     padding-top: 21px;
 }
+/*--------------pag 2 banner main------------------*/
+.vw-t2{
+    width: 107%; height: auto;
+    background-color: #fff;
+    position: relative;
+    left: -20px;
+    padding-top: 21px; 
+}
 
+.wv-2-main{
+    width: 240px; height: 400px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.main-t{
+    font:16px 'pf_dindisplay_probold';
+    text-transform: uppercase;
+    color: #999;
+    float:  left;
+    margin-right: 5px;
+    padding-left: 20px;
+}
+
+.main-b{
+    float: none;
+    height: 20px;
+    margin-bottom: 26px;
+}
+
+.main-a{
+    font: 11px Arial, sans-serif;
+    color: #999;
+}
+
+.in2{
+    width: auto; height: 60px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.in-2{
+    width: 220px; height: 60px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    border-bottom: 1px solid #ccc;
+}
+/*--------------end pag 2 banner main---------------*/
 .in{
     width: 91%; height: 60px;
     border-bottom: 1px solid #ccc;
@@ -528,7 +609,15 @@ a.s-a:hover{
 	margin:0 auto;
 	height:432px;
 	position:relative;
-    outline: 1px solid #000;
+    background-color: #1d1d1d;
+    padding: 20px 20px 0px 20px;
+}
+
+#footer-main{
+    width:950px;
+    margin: 0 auto;
+    height: 432px;
+    position: relative;
     background-color: #1d1d1d;
     padding: 20px 20px 0px 20px;
 }
