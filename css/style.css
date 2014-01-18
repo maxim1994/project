@@ -105,6 +105,14 @@ header, nav, section, article, aside, footer { display:block;
 
 /* Structures
 -----------------------------------------------------------------------------*/
+
+.ful-a{
+    text-decoration: none;
+}
+
+.orange:hover{
+    color: #ffff00;
+}
 .black{
     width: 100%; height: 42px;
     background-color: #141414;
@@ -840,6 +848,66 @@ a.s-a:hover{
 
 
 /*-------------end About--------*/
+/*-------------news-------------*/
+
+.new-pop{
+    height: 27px;
+    display: inline-block;
+    background-color: #ebebeb;
+    font: 16px Arial, sans-serif;
+    color: #666666;
+    text-align: center;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+.new-pop:hover{
+    -webkit-box-shadow: inset 0px 0px 14px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 14px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 14px 0px rgba(0,0,0,0.75);
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+.pop1{
+    width: 84px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.pop2{
+    width: 117px;
+    -webkit-box-shadow: inset 0px 0px 14px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 14px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 14px 0px rgba(0,0,0,0.75);
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+.pop3{
+    width: 136px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.about-blok-pop{
+    width: 440px; height: auto;
+    background-color: #fff;
+    padding: 30px 20px 0px 20px;
+}
+
+.post1{
+    width: 440px; height: 179px;
+    padding:0px 20px 0px 20px;
+    margin: 36px 0px 21px 0px;
+    border: 1px solid #ccc;
+}
+
+.post-cont{
+    width: 480px; height: auto;
+    background-color: #fff;
+}
+/*-------------end news---------*/
 
 
 /* Footer
