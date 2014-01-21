@@ -849,6 +849,13 @@ a.s-a:hover{
 
 /*-------------end About--------*/
 /*-------------news-------------*/
+.content-news{
+    width: 480px; height: auto;
+    float: left;
+    margin-top: 10px;
+    outline: 0px solid red;
+}
+
 
 .new-pop{
     height: 27px;
@@ -898,15 +905,117 @@ a.s-a:hover{
 
 .post1{
     width: 440px; height: 179px;
-    padding:0px 20px 0px 20px;
-    margin: 36px 0px 21px 0px;
-    border: 1px solid #ccc;
+    margin: 36px 20px 21px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.bor{
+    border-bottom: none;
 }
 
 .post-cont{
     width: 480px; height: auto;
     background-color: #fff;
 }
+
+.img-p{
+    float: left;
+    margin-right: 17px;
+}
+
+.new-h1{
+    font:24px 'pf_dindisplay_probold';
+    text-transform: uppercase;
+    color: #0099cc;
+    margin: 0px;
+    padding: 0px;
+}
+
+.date-new{
+    font: italic 11px Arial, sans-serif;
+    color: #999999;
+}
+
+.coment-new{
+    font: 13px Arial, sans-serif;
+    color: #333333;
+    padding: 10px 0px 10px 138px;
+    line-height: 17px;
+}
+
+.new-mes{
+    margin: 5px 0px 0px 138px;
+}
+
+.ico-new{
+    width: 13px; height: 12px;
+    display: block;
+    float: left;
+    background: url(../img/ico-new.png);
+}
+
+.ico-new2{
+    width: 10px; height: 11px;
+    display: block;
+    float: left;
+    background: url(../img/ico-new.png) right top;
+}
+
+.h1-b{
+    height: 21px; width: auto;
+    position: relative;
+    top: -6px;
+}
+
+.str{
+    margin: -9px 0px 33px 20px;
+}
+
+ul.str-l li{
+    width: 20px; height: 17px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 3px;
+    margin-right: 3px;
+}
+
+.str-l a{
+    text-decoration: none;
+    color: #333;
+}
+
+.bg-a{
+    background-color: #009fe3;
+}
+
+.bg-a a{
+    color: #fff;
+}
+
+.bg-a a:hover{
+    color: #fff;
+}
+/***slide news***/
+.news-blok-right{
+    width: 510px; height: auto;
+    float: right;
+    margin-top: 10px;
+}
+
+.new-slide{
+    float: right;
+    width: 300px; height: auto;
+    outline: 0px solid orange; 
+}
+
+.sb1-new{
+    width: 210px; height: auto;
+    float: left;
+    background-color: #fff;
+    }
+
+
+/***end news Slide***/
 /*-------------end news---------*/
 
 
