@@ -886,26 +886,27 @@ a.s-a:hover{
 }
 
 .new-pop:hover{
-    -webkit-box-shadow: inset 0px 0px 14px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: inset 0px 0px 14px 0px rgba(0,0,0,0.75);
-    box-shadow: inset 0px 0px 14px 0px rgba(0,0,0,0.75);
     background-color: #f0f0f0;
-    color: #000;
+    color: #0099cc;
+    -webkit-box-shadow: inset 0px 0px 0px 0px rgba(0,0,0,0.0);
+    -moz-box-shadow: inset 0px 0px 0px 0px rgba(0,0,0,0.0);
+    box-shadow: inset 0px 0px 0px 0px rgba(0,0,0,0.0);
 }
 
 .pop1{
     width: 84px;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
-}
-
-.pop2{
-    width: 117px;
     -webkit-box-shadow: inset 0px 0px 14px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: inset 0px 0px 14px 0px rgba(0,0,0,0.75);
     box-shadow: inset 0px 0px 14px 0px rgba(0,0,0,0.75);
     background-color: #f0f0f0;
     color: #000;
+}
+
+.pop2{
+    width: 117px;
+    
 }
 
 .pop3{
@@ -1436,8 +1437,102 @@ table tr td .bod{
     float: right;
     margin-top: 10px;
 }
+
 /******end slide*****/
 /*-----------end news-full------*/
+
+/*-----------review----------------*/
+.rewiev-new{
+    font: 13px Arial, sans-serif;
+    color: #333333;
+    padding: 10px 0px 10px 76px;
+    line-height: 17px;
+}
+
+.rew-mes{
+    margin: 5px 0px 0px 76px;
+}
+/*******slide review********/
+.revi-slide{
+    float: right;
+    width: 280px; height: auto;
+    outline: 0px solid orange; 
+    background-color: #fff;
+    margin-left: 20px;
+}
+
+.forum-revi{
+    width: 260px; height: 496px;
+    padding:28px 20px 0px 20px;
+    background:  url(../img/mainBg.jpg);
+}
+
+.riev-h2{
+    font:16px 'pf_dindisplay_probold';
+    text-transform: uppercase;
+    color: #333333;   
+    float: left;
+    margin: 0px 4px 27px 0px;
+}
+
+.riev-a{
+    font: 11px Arial, sans-serif;
+    color: #999999;
+}
+
+.rievBG{
+    float: left;
+    margin-right: 15px;
+}
+
+.bd-p{
+    position: relative;
+    top: -4px;  
+    border-bottom: 1px solid #ccc;
+    width: auto;
+    padding-bottom: 5px;
+    margin:0px 0px 5px 95px;
+    
+}
+
+.rev-p{
+    font: 20px 'pf_dindisplay_probold';
+    text-transform: uppercase;
+    color: #333333; 
+}
+
+.rev-p2{
+    font: 14px 'pf_dindisplay_probold';
+    color: #0099cc;
+}
+
+.forum-rev{
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 16px;
+}
+
+.forum-rev2{
+    width: 260px; height: 392px;
+    padding:28px 20px 0px 20px;
+    background-color: #fff;
+}
+
+.riev-blue{
+    color: #0099cc;
+}
+
+.slide-img-rev{
+    width: 250px; height: 390px;
+    background-color: #000;
+    padding: 110px 0px 0px 50px;
+    position: relative;
+    left: -20px;
+}
+
+/*******end review**********/
+/*-----------end review------------*/
 
 
 
